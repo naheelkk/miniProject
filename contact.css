@@ -71,7 +71,7 @@ font-weight: bold;
 .dropdown-content{
   display: none;
   position: absolute;
-  background-color: white;
+  background-color: rgb(201, 141, 29);
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -84,10 +84,11 @@ font-weight: bold;
 
   
 }
-.dropdown-content a:hover {background-color: #ddd;}
+.dropdown-content a:hover {background-color:  rgb(255, 153, 0);}
 
 /* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropdown-content {display: block;
+float: left;}
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {background-color:rgba(255,134,97,255);}
@@ -174,4 +175,47 @@ margin-top: 72px;
 .email{
   position: absolute;
   left: 35%;
+}
+form{
+  position: absolute;
+  top: 20px;
+  
+}
+.contactus{
+  position: absolute;
+  top: 39px;
+  left: 39px;
+}
+body{
+  overflow: hidden;
+}
+p{
+  font-family: sans-serif;
+  font-size: 20px;
+}
+.socials{
+  width: 20%;
+  height: 20%;
+  margin-top: 16px;
+}
+
+.socialMedia{
+  width: 25%;
+  height: 25%;
+ position: relative;
+ left: 20px;
+  
+}
+#twitter{
+  position: relative;
+  left: 50px;
+}
+#fb{
+  position: relative;
+  left: 70px;
+}
+#wats{
+  position: relative;
+  left: 340px;
+  bottom: 75px;
 }

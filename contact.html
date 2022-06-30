@@ -69,6 +69,7 @@
     <div class="contact"><h5><a href="contact.html">Contact</a></h5></div>
   </div>
   <div class="main-body">
+    <div class="forms">
    <form  class="contacts" action="#">
    <label for="Name" >Full Name</label>
    <input type="text" class="fname" placeholder="Full Name" required>
@@ -81,10 +82,27 @@
    <!-- <input type="text" required minlength="8" maxlength="400" placeholder="Comments"> -->
    <textarea name="Comments" id="" cols="30" rows="10" class="form-group"></textarea>
    <br><br>
+   <input type="submit" value="Submit" class="btn btn-primary" onclick="myfun()" id="btn">
 
    </form>
 
   </div>
-  <script src="submit.js"></script>
+  <div class="contactus">
+    <h2 class="text-secondary fw bold">Contact Us</h2>
+    <br>
+    <p>Want to get in touch? We'd love to hear from you. Here's how you can reach us...</p>
+    <br><br>
+    <div class="socials">
+      <a href="https://www.instagram.com/brewcafe40"><img src="https://cdn-icons-png.flaticon.com/512/87/87390.png" alt="" class="socialMedia"></a>
+      <a href="https://twitter.com/BrewCoffee6"><img src="https://cdn-icons-png.flaticon.com/512/733/733635.png" alt="" class="socialMedia" id="twitter"></a>
+      <a href="https://facebook.com/brewcoffee40"><img src="https://cdn-icons-png.flaticon.com/512/20/20837.png" alt="" class="socialMedia" id="fb"></a>
+      <a href="https://wa.me/917306058768"><img src="https://cdn-icons-png.flaticon.com/512/2111/2111774.png" alt="" class="socialMedia" id="wats"></a>
+     
+    </div>
+
+  </div>
+</div>
+  <script src="contact.js"></script>
+  
 </body>
 </html>
