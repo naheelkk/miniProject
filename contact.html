@@ -44,12 +44,12 @@
           <li class="drinks-list"><a href="hot.html">Hot Brews</a></li>
           <li class="drinks-list"><a href="cold.html">Cold Brews</a></li>
           <li class="drinks-list"><a href="juices.html">Juices</a></li>
-          <li class="drinks-list"><a href="shakes.html">Shaken</a></li>
           <li class="drinks-list"><a href="non_coffee.html">Non Coffee</a></li>
           <li class="drinks-list"><a href="featured_drinks.html">Featured Drinks</a></li>
 
 
       </ol>
+      <div class="foods">
       <ol class="food">
       
         <h5 class="food">Foods</h5>
@@ -62,17 +62,29 @@
       </ol>
       
        </ol>
-       
+      </div>
       </div>
     </div>
     <div class="about"><h5><a href="about.html">About</a></h5></div>
     <div class="contact"><h5><a href="contact.html">Contact</a></h5></div>
   </div>
   <div class="main-body">
-   <form  class="contact">
-    
+   <form  class="contacts" action="#">
+   <label for="Name" >Full Name</label>
+   <input type="text" class="fname" placeholder="Full Name" required>
+   <br><br>
+   <label for="email">Email</label>
+   <input type="email" class="email" required placeholder="e-mail">
+   <br><br>
+   <label for="comment">Comments</label>
+   <br><br>
+   <!-- <input type="text" required minlength="8" maxlength="400" placeholder="Comments"> -->
+   <textarea name="Comments" id="" cols="30" rows="10" class="form-group"></textarea>
+   <br><br>
+
    </form>
 
   </div>
+  <script src="submit.js"></script>
 </body>
 </html>
