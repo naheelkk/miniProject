@@ -154,3 +154,7 @@ img{
   background-color: rgba(255,134,97,255);
   background-image: url(https://img.freepik.com/free-vector/white-abstract-background-design_23-2148825582.jpg?t=st=1655735279~exp=1655735879~hmac=619f7cf5e6cc6e60b1dca94fc4921e158ae8beec661b193a83eb9259681af1b9&w=996);
 }
+body{
+  overflow: scroll;
+  overflow-x: hidden;
+}
