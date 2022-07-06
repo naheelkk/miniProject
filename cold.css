@@ -135,112 +135,13 @@ ol {
   height: 80%;
   top: 80px;
   display: flex;
- 
-  
-
-}.hotBrew{
+}
+.coldBrew {
   display: flex;
   position: absolute;
   font-family: sans-serif;
   font-size: 36px;
   font-weight: lighter;
-  left:5% ;
+  left: 5%;
   top: 6%;
-}
-.latte{
-  width: 7%;
-  POSITION: absolute;
-  left: 5%;
-  top: 17%;
-  border-radius: 71px;
-}
-.pLatte{
-
-  position: absolute;
-  top: 39%;
-  left: 7%;
-}
-.cappucino{
-  width: 7%;
-  POSITION: absolute;
-  left: 20%;
-  top: 17%;
-  height: 20%;
-  border-radius: 70px;
-}
-.cap{
-  position: absolute;
-  top: 39%;
-  left: 308px;
-}
-.american{
-  width: 7%;
-  POSITION: absolute;
-  left: 35%;
-  top: 17%;
-  height: 20%;
-  border-radius: 58px;
-}
-.americano{
-  position: absolute;
-  top: 39%;
-  left: 540px;
-
-}
-.espresso{
-  width: 7%;
-  POSITION: absolute;
-  left: 5%;
-  top: 55%;
-  height: 20%;
-  border-radius: 58px;
-}
-.esp{
-  position: absolute;
-  top: 77%;
-  left: 94px;
-
-}
-.hc{
-  width: 7%;
-  POSITION: absolute;
-  left: 20%;
-  top: 55%;
-  height: 20%;
-  border-radius: 58px;
-}
-.chocoHot{
-  position: absolute;
-  top: 77%;
-  left: 295px;
-}
-.cm{
-  width: 7%;
-  POSITION: absolute;
-  left: 35%;
-  top: 55%;
-  height: 20%;
-  border-radius: 58px;
-}
-.caramel{
-  position: absolute;
-  top: 77%;
-  left: 505px;
-}
-.filler{
-  justify-content: right;
-  text-align: right;
-  width: 20%;
-  display: flex;
-  position: absolute;
-  top: 93%;
-  left: 70%;
-}
-.fill{
-  display: flex;
-  position: absolute;
-font-family: sans-serif;
-font-weight: bold;
-color: black;
-  
 }
