@@ -136,7 +136,7 @@ ol {
   top: 80px;
   display: flex;
 }
-.coldBrew {
+.juices {
   display: flex;
   position: absolute;
   font-family: sans-serif;
@@ -160,83 +160,4 @@ ol {
 font-family: sans-serif;
 font-weight: bold;
 color: black;
-  
-}
-.iT{
-  width: 7%;
-  POSITION: absolute;
-  left: 6%;
-  top: 25%;
-  /* border-radius: 71px; */
-}
-.icedTea{
-
-  position: absolute;
-  top: 55%;
-  left: 7%;
-}
-.lat{
-  width: 9%;
-  POSITION: absolute;
-  left: 19%;
-  top: 24%;
-  height: 29%;
-}
-.icedLatte{
-  position: absolute;
-  top: 55%;
-  left: 311px;
-}
-.iC{
-  width: 9%;
-  POSITION: absolute;
-  left: 35%;
-  top: 24%;
-  height: 29%;
-}
-.icedCappu{
-  position: absolute;
-  top: 55%;
-  left: 532px;
-}
-.CM{
-  width: 7%;
-  POSITION: absolute;
-  left: 6%;
-  top: 69%;
-  height: 20%;
-  /* border-radius: 58px; */
-}
-.ChocoMilk{
-  position: absolute;
-  top: 94%;
-  left: 84px;
-
-
-}
-.ICM{
-  width: 7%;
-  POSITION: absolute;
-  left: 20%;
-  top: 69%;
-  height: 20%;
-}
-.mocha{
-
-  POSITION: absolute;
-  left: 19%;
-  top: 532px;
-
-}
-.ccb{
-  width: 8%;
-  POSITION: absolute;
-  left: 35%;
-  top: 69%;
-  height: 21%;
-}
-.citrus{
-  POSITION: absolute;
-  left: 34%;
-  top: 532px;
 }
