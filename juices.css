@@ -162,10 +162,42 @@ font-weight: bold;
 color: black;
 }
 .combo{
-
+  display: flex;
+  position: absolute;
+  width: 29%;
+  left: 6%;
+  top: 18%;
+  border-radius: 76px;
 }
 .imb{
   position: absolute;
-  top: 55%;
-  left: 532px;
+  top: 80%;
+  left: 190px;
+}
+.mm{
+  display: flex;
+  position: absolute;
+  width: 25%;
+  left: 42%;
+  top: 17%;
+  border-radius: 76px;
+  height: 58%;
+}
+.minute{
+  position: absolute;
+  top: 80%;
+  left: 722px;
+}
+.slushie{
+  display: flex;
+  position: absolute;
+  width: 29%;
+  left: 68%;
+  top: 20%;
+  border-radius: 76px;
+}
+.minutemaid{
+  position: absolute;
+  top: 80%;
+  left: 1140px;
 }
