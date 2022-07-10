@@ -156,3 +156,28 @@ font-weight: bold;
 color: black;
   
 }
+#main-title{
+display: flex;
+position: absolute;
+font-family: sans-serif;
+font-size: 36px;
+font-weight: lighter;
+left:5% ;
+top: 6%;
+}
+.imgLemon{
+  display: flex;
+  position: absolute;
+  width: 100px;
+  left: 5%;
+  top: 18%;
+  
+}
+.noncoffee{
+  border-radius: 70px;
+}
+#lemonade{
+  position: absolute;
+  left: 78px;
+  top: 44%;
+}
