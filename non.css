@@ -139,24 +139,6 @@ ol {
   
 
 }
-.featured {
-  position: absolute;
-  font: inherit;
-  margin-top: 4%;
-  margin-left: 5%;
-  font-size: 25px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-
-}
-#coldale{
-  display: block;
-  margin-top: 10%;
-}
-.coldginger{
-  position: absolute;
-  left:5% ;
-  top: 20%;
-}
 .filler{
   justify-content: right;
   text-align: right;
