@@ -159,3 +159,20 @@ ol {
   left:5% ;
   top: 20%;
 }
+.filler{
+  justify-content: right;
+  text-align: right;
+  width: 20%;
+  display: flex;
+  position: absolute;
+  top: 93%;
+  left: 70%;
+}
+.fill{
+  display: flex;
+  position: absolute;
+font-family: sans-serif;
+font-weight: bold;
+color: black;
+  
+}

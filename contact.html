@@ -7,6 +7,7 @@
   <title>Contact Us | Brew
   </title>
   <link rel="stylesheet" href="contact.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <link
     rel="shortcut icon"
     href="https://img.freepik.com/free-vector/floating-coffee-with-beans-cartoon-icon-illustration_138676-2653.jpg?t=st=1655622740~exp=1655623340~hmac=7e7319b295a87f89061cb9ad7508d97d96e001daa478ef68c3f1670666ecb295&w=740"
@@ -70,7 +71,7 @@
   </div>
   <div class="main-body">
     <div class="forms">
-   <form  class="contacts" action="#">
+   <form  class="contacts" id="submit-form">
    <label for="Name" >Full Name</label>
    <input type="text" class="fname" placeholder="Full Name" required>
    <br><br>
@@ -82,7 +83,7 @@
    <!-- <input type="text" required minlength="8" maxlength="400" placeholder="Comments"> -->
    <textarea name="Comments" id="" cols="30" rows="10" class="form-group"></textarea>
    <br><br>
-   <input type="submit" value="Submit" class="btn btn-primary" onclick="myfun()" id="btn">
+   <input type="submit" value="Submit" class="btn btn-primary" >
 
    </form>
 
@@ -103,6 +104,27 @@
   </div>
 </div>
   <script src="contact.js"></script>
-  
+  <script>
+$("#submit-form").submit((e)=>{
+            e.preventDefault()
+            $.ajax({
+                url:"https://script.google.com/macros/s/AKfycbzqqK5zJaRsZ-8-9D0tx5lMZzfojKa2UvNrWZaNVIs/dev",
+                data:$("#submit-form").serialize(),
+                method:"post",
+                success:function (response){
+                    alert("Form submitted successfully")
+                    window.location.reload()
+                    //window.location.href="https://google.com"
+                },
+                error:function (
+                  
+                
+                ){
+                    alert("Something Error")
+    
+                }
+            })
+        })
+  </script>
 </body>
 </html>
