@@ -173,11 +173,42 @@ top: 6%;
   top: 18%;
   
 }
-.noncoffee{
-  border-radius: 70px;
-}
+
 #lemonade{
   position: absolute;
   left: 78px;
   top: 44%;
+}
+.imgStraw{
+display: flex;
+position: absolute;
+width: 100px;
+left: 19%;
+top: 20%;
+height: 24%;
+border-radius: 9px;
+ 
+
+}
+#straw{
+  position: absolute;
+  left: 250px;
+  top: 252px;
+}
+.coke{
+  display: flex;
+  position: absolute;
+  width: 226px;
+  left: 31%;
+  top: 17%;
+  height: 154px;
+  border-radius: 20px;
+  
+  
+}
+#diet{
+  position: absolute;
+  left: 547px;
+  top: 252px;
+  
 }
