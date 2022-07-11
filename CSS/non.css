@@ -212,3 +212,45 @@ border-radius: 9px;
   top: 252px;
   
 }
+.green{
+  display: flex;
+  position: absolute;
+  width: 104px;
+  left: 5%;
+  top: 57%;
+  height: 149px;
+  border-radius: 10px;
+}
+#greenTea{
+  position: absolute;
+  left: 61px;
+  top: 485px;
+}
+.vanilla{
+  display: flex;
+  position: absolute;
+  width: 104px;
+  left: 19%;
+  top: 53%;
+  height: 184px;
+  border-radius: 10px;
+}
+#vanMilk{
+  position: absolute;
+  left: 258px;
+  top: 485px;
+}
+.cran{
+  display: flex;
+  position: absolute;
+  width: 104px;
+  left: 36%;
+  top: 57%;
+  height: 149px;
+  /* border-radius: 10px; */
+}
+#cranberry{
+  position: absolute;
+  left: 495px;
+  top: 485px;
+}
