@@ -172,3 +172,64 @@ color: black;
   left: 5%;
   top: 45%;
 }
+#tuna{
+  display: flex;
+  position: absolute;
+  left: 20%;
+  top: 18%;
+}
+#tunaWrap{
+  position: absolute;
+  left: 25%;
+  top: 45%;
+}
+#Roast{
+  display: flex;
+  position: absolute;
+  left: 41%;
+  top: 18%;
+}
+#roasted{
+  position: absolute;
+  left: 42%;
+  top: 45%;
+}
+#roast-beef{
+  display: flex;
+  position: absolute;
+  left: 5%;
+  top: 60%;
+  width: 150px;
+  height: 100px;
+}
+#roastedbeef{
+  position: absolute;
+  left: 4%;
+  top: 80%;
+}
+#ham{
+  display: flex;
+  position: absolute;
+  left: 23%;
+  top: 60%;
+  width: 150px;
+  height: 100px;
+}
+#hamSand{
+  position: absolute;
+  left: 359px;
+  top: 80%;
+}
+#meat{
+  display: flex;
+  position: absolute;
+  left: 43%;
+  top: 60%;
+  width: 180px;
+  height: 100px;
+}
+#meatBall{
+  position: absolute;
+  left: 43%;
+  top: 80%;
+}
