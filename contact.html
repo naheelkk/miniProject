@@ -71,12 +71,12 @@
   </div>
   <div class="main-body">
     <div class="forms">
-   <form  class="contacts" id="submit-form">
+   <form  class="contacts" id="submit-form" action="" method="post">
    <label for="Name" >Full Name</label>
    <input type="text" class="fname" placeholder="Full Name" required>
    <br><br>
    <label for="email">Email</label>
-   <input type="email" class="email" required placeholder="e-mail">
+   <input type="email" class="email" required placeholder="e-mail" >
    <br><br>
    <label for="comment">Comments</label>
    <br><br>
@@ -105,26 +105,26 @@
 </div>
   <script src="contact.js"></script>
   <script>
-$("#submit-form").submit((e)=>{
-            e.preventDefault()
-            $.ajax({
-                url:"https://script.google.com/macros/s/AKfycbzqqK5zJaRsZ-8-9D0tx5lMZzfojKa2UvNrWZaNVIs/dev",
-                data:$("#submit-form").serialize(),
-                method:"post",
-                success:function (response){
-                    alert("Form submitted successfully")
-                    window.location.reload()
-                    //window.location.href="https://google.com"
-                },
-                error:function (
+// $("#submit-form").submit((e)=>{
+//             e.preventDefault()
+//             $.ajax({
+//                 url:"",
+//                 data:$("#submit-form").serialize(),
+//                 method:"post",
+//                 success:function (response){
+//                     alert("Form submitted successfully")
+//                     window.location.reload()
+//                     //window.location.href="https://google.com"
+//                 },
+//                 error:function (
                   
                 
-                ){
-                    alert("Something Error")
+//                 ){
+//                     alert("Something Error")
     
-                }
-            })
-        })
+//                 }
+//             })
+//         })
   </script>
 </body>
 </html>
