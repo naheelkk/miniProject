@@ -178,13 +178,26 @@ color: black;
 #italian{
   display: flex;
   position: absolute;
-  left: 36%;
+  left: 25%;
   top: 19%;
   height: 29%;
-  border-radius: 10px;
+  border-radius: 6px;
 }
 #italy{
   position: absolute;
   top: 50%;
   left: 360px;
+}
+#chick{
+  display: flex;
+  position: absolute;
+  left: 42%;
+  top: 19%;
+  height: 30%;
+  border-radius: 6px;
+}
+#chicken{
+  position: absolute;
+  top: 50%;
+  left: 602px;
 }
