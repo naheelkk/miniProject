@@ -162,3 +162,71 @@ font-weight: bold;
 color: black;
   
 }
+#croissants{
+  display: flex;
+  position: absolute;
+  left: 6%;
+  top: 19%;
+  /* height: 29%; */
+}
+#croissant{
+  position: absolute;
+  top: 47%;
+  left: 92px;
+}
+#butter{
+  display: flex;
+  position: absolute;
+  left: 21%;
+  top: 19%;
+}
+#butterCro{
+  position: absolute;
+  top: 47%;
+  left:325px;
+}
+#muffin{
+  display: flex;
+  position: absolute;
+  left: 36%;
+  top: 19%;
+  height: 26%;
+}
+#muffins{
+  position: absolute;
+  top: 47%;
+  left:544px;
+}
+#oatcookie{
+  display: flex;
+  position: absolute;
+  left: 6%;
+  top: 58%;
+}
+#oatCran{
+  position: absolute;
+  top: 85%;
+  left: 70px;
+}
+#lemon{
+  display: flex;
+  position: absolute;
+  left: 21%;
+  top: 58%;
+}
+#loafCake{
+  position: absolute;
+  top: 85%;
+  left: 318px;
+}
+#sixth{
+  display: flex;
+  position: absolute;
+  left: 36%;
+  top: 58%;
+}
+#sixthHead{
+  position: absolute;
+  top: 85%;
+  left: 518px;
+}
