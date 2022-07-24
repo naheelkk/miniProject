@@ -162,3 +162,42 @@ font-weight: bold;
 color: black;
   
 }
+#tortilla{
+  display: flex;
+  position: absolute;
+  left: 6%;
+  top: 19%;
+  height: 29%;
+  border-radius: 10px;
+}
+#spanish{
+  position: absolute;
+  top: 50%;
+  left:125px;
+}
+#tacos{
+  display: flex;
+  position: absolute;
+  left: 30%;
+  top: 19%;
+  height: 29%;
+  border-radius: 10px;
+}
+#mexican{
+  position: absolute;
+  top: 50%;
+  left: 460px;
+}
+#mac{
+  display: flex;
+  position: absolute;
+  left: 48%;
+  top: 19%;
+  height: 29%;
+  border-radius: 10px;
+}
+#machead{
+  position: absolute;
+  top: 50%;
+  left: 755px;
+}
