@@ -183,9 +183,10 @@ form{
 }
 .contactus{
   position: absolute;
-  top: 39px;
+  top: 90px;
   left: 39px;
   width: 48%;
+  
 }
 body{
   overflow: hidden;
