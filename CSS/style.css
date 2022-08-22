@@ -159,3 +159,7 @@ body{
   overflow-x: hidden;
   display: flex;
 }
+#video{
+  position: absolute;
+  top: 0.5px;
+}

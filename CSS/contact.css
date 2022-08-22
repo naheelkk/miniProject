@@ -238,3 +238,8 @@ font-weight: bold;
 color: black;
   
 }
+#loc{
+  position: absolute;
+  left: 110%;
+  top: 30%;
+}
