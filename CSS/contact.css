@@ -168,14 +168,7 @@ margin-top: 72px;
   width: 140%;
   height: 120px;
 }
-.fname{
-  position: absolute;
-  left: 35%;
-}
-.email{
-  position: absolute;
-  left: 35%;
-}
+
 form{
   position: absolute;
   top: 20px;

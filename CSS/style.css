@@ -162,4 +162,5 @@ body{
 #video{
   position: absolute;
   top: 0.5px;
+  margin: 0;
 }
